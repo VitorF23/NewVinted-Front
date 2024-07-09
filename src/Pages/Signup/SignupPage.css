@@ -1,0 +1,92 @@
+/************** SignupPage / LoginPage  ***************/
+
+.signup-div {
+  width: 300px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-main {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.signup-div > h1 {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.signup-div > form > input {
+  height: 30px;
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid red;
+  margin-bottom: 25px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+.check {
+  height: 25px;
+  width: 25px;
+}
+
+.signup-div > p {
+  font-size: 15px;
+  color: #807a7a;
+  margin-bottom: 20px;
+}
+
+.signup-div > button {
+  margin-bottom: 20px;
+}
+
+.checkbox > p {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.checkbox-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkbox-p > p {
+  font-size: 15px;
+  margin-left: 5px;
+  margin-bottom: 40px;
+}
+
+.signup-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.signup-div button {
+  padding: 10px;
+  background-color: #2db0ba;
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.message {
+  color: red;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}

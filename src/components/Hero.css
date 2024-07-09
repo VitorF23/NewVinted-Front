@@ -1,0 +1,38 @@
+/********* Hero ***************/
+
+.hero {
+  height: 530px;
+}
+
+.hero img {
+  height: 455px;
+  width: 1900px;
+  object-fit: cover;
+  margin-top: 30px;
+}
+
+.hero > div {
+  background-color: white;
+  height: 270px;
+  width: 410px;
+  position: relative;
+  left: 330px;
+  bottom: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.hero > div > p {
+  font-size: 45px;
+  margin-bottom: 50px;
+}
+
+.hero-button button {
+  padding: 10px;
+  background-color: #2db0ba;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}

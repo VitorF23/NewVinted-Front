@@ -1,0 +1,76 @@
+/********* HEADER ***************/
+
+.main-header {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.Logo {
+  display: flex;
+  align-items: center;
+}
+
+.Logo > img {
+  margin-top: 40px;
+}
+
+.input input {
+  width: 635px;
+  height: 40px;
+  margin: 10px 0px 0px 40px;
+  border: none;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 18px;
+  padding-left: 30px;
+  background-color: aliceblue;
+  outline: none;
+}
+
+.header-button {
+  width: 450px;
+  display: flex;
+  gap: 60px;
+  margin-bottom: 5px;
+}
+
+.header-button > button {
+  width: 110px;
+  height: 35px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border-color: #2db0ba;
+  color: #2db0ba;
+}
+
+.header-button button:nth-child(1n + 3) {
+  width: 110px;
+  height: 35px;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: #2db0ba;
+  color: white;
+}
+
+.button-deconnecter {
+  background-color: rgba(255, 0, 0, 0.778);
+  border: none;
+}
+.tri-prix {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.tri-prix div {
+  margin: 5px;
+  cursor: pointer;
+}
+
+.tri-prix > p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}

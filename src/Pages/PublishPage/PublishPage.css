@@ -1,0 +1,165 @@
+/******************* PublishPage ************************/
+
+.main-article {
+  background-color: #eaedee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-article > div > h1 {
+  width: 1280px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+
+.main-div > div:first-child {
+  border: 1px solid #ccc;
+  width: 1280px;
+  height: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.main-div > div:nth-child(2) {
+  height: 225px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+#title {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 600px;
+  margin-left: 50%;
+  outline: none;
+}
+
+.input-title {
+  width: 1280px;
+  height: 80px;
+  padding: 25px;
+  border-bottom: 1px solid #ccc;
+}
+
+#description {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 600px;
+  margin-left: 50%;
+  height: 90px;
+}
+
+.description-input {
+  width: 1280px;
+  height: 90px;
+  padding: 25px;
+}
+
+.main-div-div > img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-left: 20px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.image {
+  border: 1px solid #2db0ba;
+  border-radius: 5px;
+  padding: 5px;
+  width: 170px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.image span {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.image p {
+  color: #2db0ba;
+  font-weight: bold;
+}
+
+.description-input input {
+  padding-bottom: 50px;
+  outline: none;
+}
+
+#description-info {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 600px;
+  margin-left: 50%;
+  outline: none;
+}
+
+.description-div {
+  width: 1280px;
+  height: 80px;
+  padding: 25px;
+  border-bottom: 1px solid #ccc;
+  background-color: white;
+}
+
+.info {
+  border: 1px solid #ccc;
+}
+
+.div-prix {
+  width: 1280px;
+  height: 130px;
+  padding: 25px;
+  background-color: white;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#prix-info {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 150px;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+.div-prix > div:last-child {
+  width: 50%;
+}
+
+#checkbox {
+  width: 20px;
+  height: 20px;
+}
+
+.button-ajouter {
+  height: 100px;
+  display: flex;
+  justify-content: end;
+  margin-top: 50px;
+}
+
+.button-ajouter button {
+  width: 110px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: #2db0ba;
+  color: white;
+  border: none;
+  font-size: 17px;
+}

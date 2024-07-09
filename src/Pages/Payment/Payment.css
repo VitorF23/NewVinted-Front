@@ -1,0 +1,66 @@
+/******************* Payment ************************/
+
+.div-payment {
+  background-color: #ebedee;
+  display: flex;
+  justify-content: center;
+  height: 900px;
+}
+
+.div-payment > div {
+  background-color: white;
+  padding: 15px;
+  width: 650px;
+  height: 500px;
+  margin-top: 50px;
+}
+
+.div-payment > div > div {
+  margin-bottom: 20px;
+}
+
+.div-payment div:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+}
+
+.div-payment div:nth-child(3) {
+  display: flex;
+  justify-content: space-between;
+}
+
+.div-payment div:nth-child(4) {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+
+.div-payment div:nth-child(5) {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.div-payment div:nth-child(6) {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0px 50px 0px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+
+.button-valider-cardElement {
+  width: 600px;
+  height: 30px;
+  background-color: green;
+  border: none;
+  color: white;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+
+.div-payment div:nth-child(7) {
+  display: flex;
+  justify-content: center;
+}
