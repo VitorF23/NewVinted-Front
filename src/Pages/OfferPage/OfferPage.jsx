@@ -58,20 +58,22 @@ const Offer = ({ token }) => {
                 <img src={offer.owner.account.avatar?.secure_url} alt="" />
                 <p>{offer.owner.account.username}</p>
               </div>
-              <button
-                onClick={() => {
-                  navigate("/payment", {
-                    state: {
-                      title: offer.product_name,
-                      price: offer.product_price,
-                      id: id,
-                      from: location.pathname,
-                    },
-                  });
-                }}
-              >
-                Acheter
-              </button>
+              <div className="button-acheter">
+                <button
+                  onClick={() => {
+                    navigate("/payment", {
+                      state: {
+                        title: offer.product_name,
+                        price: offer.product_price,
+                        id: id,
+                        from: location.pathname,
+                      },
+                    });
+                  }}
+                >
+                  Acheter
+                </button>
+              </div>
             </div>
           </div>
         </div>

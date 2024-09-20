@@ -1,6 +1,7 @@
 /********* HEADER ***************/
 
 .main-header {
+  width: 100%;
   display: flex;
   justify-content: center;
   justify-content: space-around;
@@ -29,14 +30,14 @@
   outline: none;
 }
 
-.header-button {
+main > nav {
   width: 450px;
   display: flex;
   gap: 60px;
   margin-bottom: 5px;
 }
 
-.header-button > button {
+main > nav > button {
   width: 110px;
   height: 35px;
   margin-top: 20px;
@@ -45,7 +46,7 @@
   color: #2db0ba;
 }
 
-.header-button button:nth-child(1n + 3) {
+main > nav > button:nth-child(1n + 3) {
   width: 110px;
   height: 35px;
   margin-top: 20px;
@@ -73,4 +74,105 @@
 .tri-prix > p {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+#modal-modal-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#modal-modal-title > button {
+  width: 110px;
+  height: 35px;
+  border-radius: 5px;
+  border-color: #2db0ba;
+  color: #2db0ba;
+}
+#modal-modal-title .tri-prix {
+  display: flex;
+}
+
+@media (max-width: 1300px) {
+  .input input {
+    width: 350px;
+    height: 40px;
+    margin: 10px 30px 0px 20px;
+  }
+}
+
+@media (max-width: 870px) {
+  main > nav > button {
+    display: none;
+  }
+
+  .tri-prix {
+    display: none;
+  }
+
+  main > nav {
+    gap: 5px;
+  }
+
+  .input input {
+    width: 600px;
+    height: 40px;
+    margin: 10px 10px 0px 20px;
+  }
+
+  main > nav.open {
+    display: flex;
+  }
+
+  main nav button {
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
+
+@media (max-width: 780px) {
+  main > nav {
+    display: none;
+    flex-direction: column;
+    width: 70%;
+    text-align: center;
+    position: absolute;
+    top: 100px;
+  }
+
+  main > nav {
+    gap: 5px;
+  }
+  .tri-prix {
+    display: none;
+  }
+
+  .input input {
+    width: 200px;
+    height: 40px;
+    margin: 10px 10px 0px 20px;
+  }
+
+  main > nav.open {
+    display: flex;
+  }
+
+  main nav button {
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
 }

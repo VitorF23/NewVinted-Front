@@ -1,29 +1,25 @@
 /*********** OfferPage ****************/
 
-.offerPage-main {
-  background-color: #ebedee;
-}
-
 .offer-img {
-  width: 1224px;
+  margin-top: 50px;
+  width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 50px;
 }
 
 .offer-img img {
-  width: 450px;
-  height: 600px;
-  object-fit: cover;
+  width: 50vh;
+  object-fit: contain;
 }
 
 .offer-img > div {
-  width: 400px;
-  height: 600px;
+  width: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 50px;
-  background-color: white;
+  background-color: #ebedee;
 }
 
 .detail-div {
@@ -58,9 +54,14 @@
   margin-right: 15px;
 }
 
-.detail-div2 > button {
-  width: 300px;
-  height: 40px;
+.button-acheter {
+  display: flex;
+  justify-content: center;
+}
+
+.button-acheter > button {
+  width: 30vh;
+  height: 5vh;
 }
 
 .pagination {
@@ -78,4 +79,20 @@
   height: 30px;
   cursor: pointer;
   margin: 40px;
+}
+
+@media (max-width: 870px) {
+  .offer-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .offer-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }

@@ -191,7 +191,7 @@ const PublishPage = ({ token }) => {
           <div>
             <h1>Prix</h1>
           </div>
-          <div>
+          <div className="input-prix">
             <input
               type="number"
               step="0.01"

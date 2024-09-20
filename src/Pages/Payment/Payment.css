@@ -1,18 +1,19 @@
 /******************* Payment ************************/
 
 .div-payment {
-  background-color: #ebedee;
   display: flex;
   justify-content: center;
-  height: 900px;
+  align-items: center;
+  height: 0 auto;
 }
 
 .div-payment > div {
   background-color: white;
   padding: 15px;
-  width: 650px;
+  width: 60%;
   height: 500px;
   margin-top: 50px;
+  background-color: #f0f8ff;
 }
 
 .div-payment > div > div {
@@ -63,4 +64,23 @@
 .div-payment div:nth-child(7) {
   display: flex;
   justify-content: center;
+  width: 100%;
+}
+
+@media (max-width: 1100px) {
+  .button-valider-cardElement {
+    width: 450px;
+  }
+  .div-payment > div {
+    width: 90%;
+  }
+}
+
+@media (max-width: 800px) {
+  .button-valider-cardElement {
+    width: 300px;
+  }
+  .div-payment > div {
+    width: 100%;
+  }
 }
